@@ -10,8 +10,6 @@ console.log(firstName + " " + lastName)
 let person = "Jane"
 let PI = 3.1415;
 
-// Data Types.
-
 let me = {
   name: "JBP",
   age: 40,
@@ -19,3 +17,18 @@ let me = {
 }
 
 console.log(me)
+
+// Data Types.
+
+let jsIsFun = true;
+console.log(typeof true)
+console.log(typeof jsIsFun)
+console.log(typeof 23)
+console.log(typeof "James")
+
+// let, const and var
+
+let foo = "gogo"
+console.log(foo)
+foo = 3231
+console.log(foo)
