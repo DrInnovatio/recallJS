@@ -32,3 +32,13 @@ let foo = "gogo"
 console.log(foo)
 foo = 3231
 console.log(foo)
+
+const now = 2021
+const ageJames = now - 1981
+const ageBo = now - 1986
+console.log(ageJames, ageBo)
+
+const firstName_1 = "James";
+const lastName_1 = "Jeong";
+
+console.log(firstName_1 + lastName_1)
