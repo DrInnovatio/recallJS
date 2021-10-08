@@ -42,3 +42,11 @@ const firstName_1 = "James";
 const lastName_1 = "Jeong";
 
 console.log(firstName_1 + lastName_1)
+
+let hoo = 34 ** 2;
+hoo += 1;
+hoo *= 3
+hoo++;
+hoo--;
+
+console.log(hoo)
