@@ -48,5 +48,10 @@ hoo += 1;
 hoo *= 3
 hoo++;
 hoo--;
-
 console.log(hoo)
+
+const theYear = 2021;
+const ageJohn = theYear - 1981;
+const ageJane = theYear - 1990;
+
+console.log(ageJane > ageJohn);
