@@ -1,4 +1,5 @@
- let js = 'amazing';
+/**  
+let js = 'amazing';
       if (js === 'amazing')
         alert('JS is fun!!')
 
@@ -55,3 +56,17 @@ const ageJohn = theYear - 1981;
 const ageJane = theYear - 1990;
 
 console.log(ageJane > ageJohn);
+
+**/
+
+const markMass = 78;
+const markHeight = 1.69;
+
+const johnMass = 92;
+const johnHeight = 1.95;
+
+
+
+let johnBMI = johnMass / johnHeight ** 2;
+let markBMI = markMass / markHeight ** 2;
+
