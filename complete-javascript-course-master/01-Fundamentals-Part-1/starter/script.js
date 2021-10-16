@@ -57,7 +57,6 @@ const ageJane = theYear - 1990;
 
 console.log(ageJane > ageJohn);
 
-**/
 
 const markMass = 78;
 const markHeight = 1.69;
@@ -71,3 +70,8 @@ const markHigherBMI = markBMI > johnBMI;
 
 console.log(johnBMI, markBMI)
 console.log(markHigherBMI)
+
+**/
+const kName = "Karl"
+const karlNew = `I'm ${kName}.`;
+console.log(karlNew)
