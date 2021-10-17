@@ -71,7 +71,7 @@ const markHigherBMI = markBMI > johnBMI;
 console.log(johnBMI, markBMI)
 console.log(markHigherBMI)
 
-**/
+
 const kName = "Karl"
 const karlNew = `I'm ${kName}.`;
 console.log(karlNew)
@@ -82,3 +82,7 @@ const maker = "Toyota";
 
 const description = `The car was made in ${carYear} by ${maker}, and the model is ${carModel}..`
 console.log(description)
+
+**/
+
+console.log("BBC Online, formerly known as BBCi,\n\ is the BBC's online service. \n\ It is a large network of websites including \n\  such high-profile sites as BBC News ")
