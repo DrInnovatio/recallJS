@@ -75,3 +75,10 @@ console.log(markHigherBMI)
 const kName = "Karl"
 const karlNew = `I'm ${kName}.`;
 console.log(karlNew)
+
+const carYear = 2013;
+const carModel = "camry";
+const maker = "Toyota";
+
+const description = `The car was made in ${carYear} by ${maker}, and the model is ${carModel}..`
+console.log(description)
