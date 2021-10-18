@@ -83,6 +83,19 @@ const maker = "Toyota";
 const description = `The car was made in ${carYear} by ${maker}, and the model is ${carModel}..`
 console.log(description)
 
-**/
+
 
 console.log("BBC Online, formerly known as BBCi,\n\ is the BBC's online service. \n\ It is a large network of websites including \n\  such high-profile sites as BBC News ")
+
+**/
+
+const age = 13;
+//const isOldEnough = age >= 18;
+
+if (age >= 18) {
+  console.log("Sarah can start driving license !!!!!")
+} else {
+  const yearLeft = 18 - age;
+  console.log(`She is too young to drive. Wait another ${yearLeft} years.`)
+}
+
