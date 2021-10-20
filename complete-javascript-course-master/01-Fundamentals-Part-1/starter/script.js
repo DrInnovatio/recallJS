@@ -99,3 +99,12 @@ if (age >= 18) {
   console.log(`She is too young to drive. Wait another ${yearLeft} years.`)
 }
 
+const birthYear = 1998;
+let century = 0;
+
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21
+}
+console.log(century)
