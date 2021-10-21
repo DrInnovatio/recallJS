@@ -87,7 +87,6 @@ console.log(description)
 
 console.log("BBC Online, formerly known as BBCi,\n\ is the BBC's online service. \n\ It is a large network of websites including \n\  such high-profile sites as BBC News ")
 
-**/
 
 const age = 13;
 //const isOldEnough = age >= 18;
@@ -108,3 +107,35 @@ if (birthYear <= 2000) {
   century = 21
 }
 console.log(century)
+
+let gas = 1023;
+let horsePower = 234;
+
+if (gas > 1010 && horsePower > 213) {
+  console.log("Success!!!")
+} else {
+  console.log("Failed!!")
+}
+
+
+
+const markMass = 78;
+const markHeight = 1.69;
+
+const johnMass = 92;
+const johnHeight = 1.95;
+
+const johnBMI = johnMass / johnHeight ** 2;
+const markBMI = markMass / markHeight ** 2;
+const markHigherBMI = markBMI > johnBMI;
+
+if (markBMI > johnBMI) {
+  console.log("Mark's BMI is higher than John's.")
+} else {
+  console.log("John's BMI is higher than John's.")
+}
+**/
+
+const inputYear = '1991';
+console.log(inputYear + 20);
+console.log(Number(inputYear))
