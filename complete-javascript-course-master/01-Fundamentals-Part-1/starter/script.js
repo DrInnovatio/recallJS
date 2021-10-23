@@ -134,8 +134,19 @@ if (markBMI > johnBMI) {
 } else {
   console.log("John's BMI is higher than John's.")
 }
-**/
+
 
 const inputYear = '1991';
 console.log(inputYear + 20);
 console.log(Number(inputYear))
+**/
+
+console.log(Number('Jonas'));
+console.log(typeof NaN);
+console.log(String(23))  // NaN = not a number
+
+let a = 35;
+let b = String(34);
+let c = a + b;
+console.log(c)
+
