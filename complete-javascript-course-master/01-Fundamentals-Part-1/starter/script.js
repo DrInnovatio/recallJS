@@ -139,7 +139,7 @@ if (markBMI > johnBMI) {
 const inputYear = '1991';
 console.log(inputYear + 20);
 console.log(Number(inputYear))
-**/
+
 
 console.log(Number('Jonas'));
 console.log(typeof NaN);
@@ -150,3 +150,13 @@ let b = String(34);
 let c = a + b;
 console.log(c)
 
+**/
+
+// Boolean
+// Five falsy values: 0, '', undefined, null, NaN
+
+console.log(Boolean(0))
+console.log(Boolean(undefined))
+console.log(Boolean('James'))
+console.log(Boolean({}))
+console.log(Boolean(''))
