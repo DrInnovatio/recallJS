@@ -160,3 +160,22 @@ console.log(Boolean(undefined))
 console.log(Boolean('James'))
 console.log(Boolean({}))
 console.log(Boolean(''))
+
+const money = 0;
+
+if (money) {
+  console.log("Don't spend it all");
+} else {
+  console.log("You should get a job")
+}
+
+// JS converts 0 to a boolean.
+
+let height;
+if (height) {
+  console.log("Yay! Height is defined");
+} else {
+  console.log("Height is undefined.")
+}
+
+// Undefined value is false, 0 is also falsy value.
