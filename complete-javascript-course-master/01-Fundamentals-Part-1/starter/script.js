@@ -150,8 +150,6 @@ let b = String(34);
 let c = a + b;
 console.log(c)
 
-**/
-
 // Boolean
 // Five falsy values: 0, '', undefined, null, NaN
 
@@ -179,3 +177,16 @@ if (height) {
 }
 
 // Undefined value is false, 0 is also falsy value.
+
+**/
+
+// == vs ===
+
+const age = 18;
+if (age === 18) console.log("You just became an adult :D (Strict)")
+
+if (age == 18) console.log("You just became an adult :D (loose)")
+
+const favorite = prompt("What is your favorite number ? ")
+console.log(favorite)
+console.log(typeof favorite)
