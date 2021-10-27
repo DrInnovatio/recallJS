@@ -190,3 +190,15 @@ if (age == 18) console.log("You just became an adult :D (loose)")
 const favorite = prompt("What is your favorite number ? ")
 console.log(favorite)
 console.log(typeof favorite)
+
+if (favorite === 23) {
+  console.log("Cool! 23 is good number!!")
+} else if (favorite === 7) {
+  console.log("7 is lucky number!!  ")
+} else if (favorite === 9) {
+  console.log("9 is lucky number!!  ")
+} else {
+  console.log("Number is not 23 or 7 or 9.")
+}
+
+if (favorite !== 23 ) console.log("WHy not 23??")
