@@ -178,7 +178,7 @@ if (height) {
 
 // Undefined value is false, 0 is also falsy value.
 
-**/
+
 
 // == vs ===
 
@@ -202,3 +202,10 @@ if (favorite === 23) {
 }
 
 if (favorite !== 23 ) console.log("WHy not 23??")
+
+**/
+
+const hasDriversLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriversLicense && hasGoodVision)
