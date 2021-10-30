@@ -203,7 +203,7 @@ if (favorite === 23) {
 
 if (favorite !== 23 ) console.log("WHy not 23??")
 
-**/
+
 
 const hasDriversLicense = true;
 const hasGoodVision = true;
@@ -222,3 +222,11 @@ if (shouldDrive) {
 
 const isTired = true;
 console.log(hasDriversLicense || hasGoodVision || isTired);
+
+**/
+
+// Project Question.
+
+const scoreDolphins = (96 + 108 + 89) / 3;
+const scoreKoalas = (88 + 91 + 110) / 3;
+console.log(scoreDolphins, scoreKoalas)
