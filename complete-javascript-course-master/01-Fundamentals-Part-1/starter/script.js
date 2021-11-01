@@ -223,7 +223,7 @@ if (shouldDrive) {
 const isTired = true;
 console.log(hasDriversLicense || hasGoodVision || isTired);
 
-**/
+
 
 // Project Question.
 
@@ -237,4 +237,20 @@ if (scoreDolphins > scoreKoalas) {
   console.log("Koalas win the trophy!")
 } else if (scoreDolphins === scoreKoalas) {
   console.log("Both the win the trophy!!")
+}
+
+**/
+
+const scoreDolphins = (97 + 112 + 101) / 3;
+const scoreKoalas = (109 + 95 + 106) / 3;
+console.log(scoreDolphins, scoreKoalas)
+
+if (scoreDolphins > scoreKoalas  && scoreDolphins >= 100) {
+  console.log("Dolohins win the trophy!")
+} else if (scoreKoalas > scoreDolphins && scoreKoalas >= 100) {
+  console.log("Koalas win the trophy!")
+} else if (scoreDolphins === scoreKoalas && scoreDolphins >= 100 && scoreKoalas >= 100) {
+  console.log("Both the win the trophy!!")
+} else {
+  console.log("No one wins the trophy!!")
 }
