@@ -239,8 +239,6 @@ if (scoreDolphins > scoreKoalas) {
   console.log("Both the win the trophy!!")
 }
 
-**/
-
 const scoreDolphins = (97 + 112 + 101) / 3;
 const scoreKoalas = (109 + 95 + 106) / 3;
 console.log(scoreDolphins, scoreKoalas)
@@ -253,4 +251,13 @@ if (scoreDolphins > scoreKoalas  && scoreDolphins >= 100) {
   console.log("Both the win the trophy!!")
 } else {
   console.log("No one wins the trophy!!")
+}
+**/
+
+const day = 'monday';
+
+switch (day) {
+  case 'monday':
+    console.log("Plan the course Structure here.")
+    break;
 }
