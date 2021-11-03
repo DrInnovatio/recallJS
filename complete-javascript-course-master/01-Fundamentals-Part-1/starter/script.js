@@ -254,10 +254,26 @@ if (scoreDolphins > scoreKoalas  && scoreDolphins >= 100) {
 }
 **/
 
-const day = 'monday';
+const day = 'thursday';
 
 switch (day) {
   case 'monday':
     console.log("Plan the course Structure here.")
+    console.log("I love bora.")
     break;
+  case 'tuesday':
+    console.log("Pay my rent.")
+    break;
+  case 'wednesday':
+  case 'thursday':
+    console.log("Write the code examples.")
+    break;
+  case 'friday':
+    console.log("take a shit")
+    break;
+  case 'saturday':
+  case 'sunday':
+    break;
+  default:
+    console.log('Not a valid day.')
 }
