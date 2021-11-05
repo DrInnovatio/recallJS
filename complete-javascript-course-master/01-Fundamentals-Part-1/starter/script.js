@@ -252,7 +252,7 @@ if (scoreDolphins > scoreKoalas  && scoreDolphins >= 100) {
 } else {
   console.log("No one wins the trophy!!")
 }
-**/
+
 
 const day = 'monday';
 
@@ -260,7 +260,7 @@ switch (day) {
   case 'monday':
     console.log("Plan the course Structure here.")
     console.log("I love bora.")
-    //break;
+    break;
   case 'tuesday':
     console.log("Pay my rent.")
     break;
@@ -277,4 +277,24 @@ switch (day) {
     break;
   default:
     console.log('Not a valid day.')
+}
+**/
+
+let car = prompt("What is your car?")
+
+switch (car) {
+  case "hyundai":
+    console.log("Good choice")
+    break;
+  case "toyota":
+    console.log("It was nice car, but not better than KIA")
+  case "lexus":
+    console.log("That is great car!!")
+  case "benz":
+  case "bmw":
+    console.log("That is the best car in the world.")
+    break;
+  default:
+    console.log("Sorry. You don't have a car.")
+    break;
 }
